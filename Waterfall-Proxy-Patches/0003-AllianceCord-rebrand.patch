@@ -27,7 +27,7 @@ index 3e9be796..dfab95e4 100644
      public String getVersion()
      {
 -        return ( BungeeCord.class.getPackage().getImplementationVersion() == null ) ? "unknown" : BungeeCord.class.getPackage().getImplementationVersion();
-+        return "1.5.2";
++        return "1.5.3";
      }
  
      public final void reloadMessages()
