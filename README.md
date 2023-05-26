@@ -1,56 +1,58 @@
 
-<img src="https://mondongo.cf/cloud/up/Mangocord.png" />
+<img src="https://alliancecraft.net/imagens/AllianceCord.png" />
 
-A modified version of Flamecord and Waterfall that fixes netty exploits, improves performance, keeps your console clean & supports latest versions.
+Uma versão modificada do Flamecord e Waterfall que corrige exploits netty, melhora o desempenho, mantém seu console limpo e oferece suporte às versões mais recentes.
 
 ## Links
-Free download MangoCord:
+Download grátis do AllianceCord:
 https://github.com/LuciaNishimiya/MangoCord/releases
 <br>
-Discord Mango Studio:
-https://discord.gg/PeS8h8eJZJ
+Discord AllianceCraft NetWork:
+https://dc.alliancecraft.net
 
-## Feactures
-* Our features are focused on the security of your Minecraft server preventing hacking with crash exploits, bots and other kind of dos attacks on the application layer.
+## Características
+* Nossos recursos são focados na segurança do seu servidor Minecraft, evitando hackers com exploits de travamento, bots e outros tipos de ataques DOS na camada do aplicativo.
 
-* **Bots**: We prevent bots using multiple security checks to minimize the damage.
+* **Bots**: Evitamos que bots usem várias verificações de segurança para minimizar os danos.
 
-* **Anti-vpn/proxy**: VPN detection check.
+* **Anti-vpn/proxy**: Verificação de detecção de VPN.
 
-* **Performance**: We reduce the amount of processing done to improve the speed of our servers.
+* **Performance**: Reduzimos a quantidade de processamento feito para melhorar a velocidade de nossos servidores.
 
-* **GeyserMC compatibility**: Set the GeyserMC configuration option “disable-compression” to false to fix compatibility with MangoCord.
+* **Compativel com GeyserMC**: Defina a opção de configuração do GeyserMC “desativar compactação” como falsa para corrigir a compatibilidade com o AllianceCord.
 
-* **Motd**: Incorporates customizable an advanced motd system that protects against null pink attacks
+* **Motd**: Incorpora um sistema motd avançado personalizável que protege contra ataques de ping nulo
 
-* **Languages Supported**: Fully configurable in messages.yml!!.
+* **Idiomas suportados**: Totalmente configurável em messages.yml!!.
 
-* **Exploit Fixes**: MangoCord specializes in providing better server security by fixing major exploits, performance flaws and bugs that Bungeecord already has, and that have not yet been fixed in WaterfallMC.
-
-
-MangoCord is a FlameCord and Waterfall fork that protects your server from bot attacks and exploits done to your Minecraft Server by minimizing the impact received by those with our advanced set of antibot filtering features. MangoCord improves your server performance and reduces your CPU usage by cutting the amount of processes required to process packets. MangoCord has free official and community support on our Discord server. https://discord.gg/PeS8h8eJZJ . Visit our detailed guide to MangoCord configuration to know more about it's features and how to configure them.
+* **Exploit Fixes**: O AllianceCord é especializado em fornecer melhor segurança ao servidor, corrigindo grandes exploits, falhas de desempenho e bugs que o Bungeecord já possui e que ainda não foram corrigidos no WaterfallMC.
 
 
-## Why fork Waterfall?
 
-MangoCord  was forked out of a desire for greater protection to be afforded to a Bungeecord-based proxy, which Waterfall currently cannot offer.
+AllianceCord é uma fork do MangoCord e o MangoCord é uma fork FlameCord e Waterfall que protege seu servidor contra ataques de bot e exploits feitos em seu Minecraft Server, minimizando o impacto recebido por aqueles com nosso conjunto avançado de recursos de filtragem antibot. O AllianceCord melhora o desempenho do servidor e reduz o uso da CPU, reduzindo a quantidade de processos necessários para processar pacotes.
 
-MangoCord  will track upstream Waterfall and merge changes as needed.
 
-## How to (Server Admins)
 
-Just drag an drop MangoCord .jar into your server folder and run it.
+## Por quê uma fork do Waterfall?
 
-You can customize many MangoCord  features in the flamecord.yml file.
+O AllianceCord foi criado a partir de um desejo de maior proteção a ser concedida a um proxy baseado em Bungeecord, que a Waterfall atualmente não pode oferecer.
 
-## How To (Compiling from source)
+O AllianceCord rastreará o upstream Waterfall e mesclará as alterações conforme necessário.
 
-To compile FlameCord, you need JDK8 or above, git, bash, maven, and an internet connection.
+## Como usar (Administradores de servidor)
 
-Clone this repo, run `./flamecord b` from *bash*, get jar from `FlameCord-Proxy/bootstrap/target`
+Basta arrastar o AllianceCord .jar para a pasta do servidor e executá-lo
 
-FlameCord is compiled like Waterfall does; Please follow the [CONTRIBUTING.md](https://github.com/2lstudios-mc/FlameCord/blob/master/CONTRIBUTING.md) file. If you need help you can always contact us on Discord.
+Você pode personalizar muitos recursos do AllianceCord no arquivo flamecord.yml.
 
-## Contribute
+## Como compilar (compilando a partir do código-fonte)
 
-* Feel free to open a PR! We accept contributions.
+Para compilar o AllianceCord, você precisa de JDK8 ou superior, git, bash, maven e uma conexão com a internet.
+
+Clone este repositório, execute `./alliancecord b` via *bash* (shell linux) ou *Git Bash* (Windows), obtenha jar de `FlameCord-Proxy/bootstrap/target`
+
+O AllianceCord é compilado como o Waterfall; Siga o arquivo [CONTRIBUTING.md](https://github.com/2lstudios-mc/FlameCord/blob/master/CONTRIBUTING.md)
+
+## Contribua
+
+* Sinta-se à vontade para abrir um PR! Aceitamos contribuições.
