@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+case "$1" in
+    "rb" | "rbp" | "rebuild" | "reconstruir")
+        scripts/rebuildPatches.sh
+    ;;
+    "p" | "patch")
+        scripts/build.sh
+    ;;
+    "m" | "up" | "merge" | "f" | "fundir")
+        scripts/mergeUpstream.sh
+    ;;
+    "b" | "build" | "c" | "construir")
+        scripts/build.sh --jar
+    ;;
+    "e" | "edit")
+        scripts/edit.sh
+    ;;
+    "w" | "wiggle")
+        scripts/wigglePatch.py
+    ;;
+    *)
+        echo "Comandos da ferramenta de construção AllianceCord. Isso fornece uma variedade de comandos para controlar a construção"
+        echo "do AllianceCord. Veja abaixo os detalhes dos comandos disponíveis."
+        echo ""
+        echo "Comandos:"
+        echo "  * rb, rbp, rebuild | Reconstrói os patches"
+        echo "  * reconstrui       | ⤴"
+        echo "  * p, patch         | Aplica todos os patches ao AllianceCord"
+        echo "  * m, up, merge     | Utilitário para ajudar na fusão upstream"
+        echo "  * f , fundir       | ⤴" 
+        echo "  * b, build         | Constrói o projeto"
+        echo "  * c, construir     | O artefato bootstrap pode ser encontrado em AllianceCord-Proxy/bootstrap/target/"
+        echo "  * e, edit          | Executa git rebase -i para Waterfall, permitindo que os patches sejam facilmente modificados"
+        echo "  * w, wiggle        | Ajuda a aplicar patches que falham ao usar o Git padrão."
+    ;;
+esac
