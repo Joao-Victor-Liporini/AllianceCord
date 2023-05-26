@@ -41,7 +41,7 @@ index 820f7b03..76f5fed7 100644
      {
 -        sender.sendMessage( ChatColor.BLUE + "This server is running FlameCord version " + ProxyServer.getInstance().getVersion() + " by md_5" );
 +        // FlameCord - Use custom version message
-+        sender.sendMessage( net.md_5.bungee.api.chat.TextComponent.fromLegacyText( ChatColor.translateAlternateColorCodes( '&', "&eThis server is running &c" + ProxyServer.getInstance().getName() + "&e version &a" + ProxyServer.getInstance().getVersion() + "&e by &bArkFlame Development&e." ) ) );
++        sender.sendMessage( net.md_5.bungee.api.chat.TextComponent.fromLegacyText( ChatColor.translateAlternateColorCodes( '&', "&eEste servidor está rodando a Versão &c" + ProxyServer.getInstance().getName() + "&a" + ProxyServer.getInstance().getVersion() + "&e by &bJVLip13&e." ) ) );
      }
  }
 diff --git a/query/src/main/java/net/md_5/bungee/query/QueryHandler.java b/query/src/main/java/net/md_5/bungee/query/QueryHandler.java
@@ -54,7 +54,7 @@ index 0c1ecfb8..b2b19996 100644
  
 -            ProxyQueryEvent event = new ProxyQueryEvent(listener, new QueryResult(listener.getMotd(), "SMP", "Waterfall_Proxy",
 +            // FlameCord - Rebrand
-+            ProxyQueryEvent event = new ProxyQueryEvent(listener, new QueryResult(listener.getMotd(), "SMP", "FlameCord_Proxy",
++            ProxyQueryEvent event = new ProxyQueryEvent(listener, new QueryResult(listener.getMotd(), "SMP", "AllianceCord_Proxy",
                      bungee.getOnlineCount(), listener.getMaxPlayers(), listener.getHost().getPort(),
                      listener.getHost().getHostString(), "MINECRAFT",  players, bungee.getGameVersion()));
              QueryResult result = bungee.getPluginManager().callEvent(event).getResult();
